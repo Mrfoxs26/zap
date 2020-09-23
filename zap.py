@@ -63,7 +63,7 @@ try:
     while True:
          cb=input('\033[00mTry again?(y/t):')
          if cb == 'y':
-            os.system('python call-1.py')
+            os.system('python zap.py')
          elif cb == 't':
             sys.exit()
          else:
